@@ -7,12 +7,13 @@ boton.addEventListener(`click`,(e)=>{
     event.preventDefault(e);
     numInput=parseFloat(numInput.value);
     if(numInput%1===0){
-        if(numInput>=0 && numInput<=1){
+        if(numInput==0){
             numInputb=1;
         }
-        else if(numInput>1){
-            for (numInput > 0; numInput--;) {
+        else if(numInput>=1){
+            for (numInputb=1;numInput>0;numInput--) {
                 numInputb*= numInput;
+                console.log(numInputb);
           }
         }
         else{
