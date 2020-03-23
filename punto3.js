@@ -16,16 +16,3 @@ boton.addEventListener(`click`,(e)=>{
     } 
     document.querySelector('h1').innerHTML=`El Factorial de ${save} es: ${numInputb}`;
 })
-
-/*function factorialize(numInput) {
-    if(numInput>=0 && numInput<=1){
-        numInputb=1;
-    }
-    else if(numInput>1){
-        for (var numInputb = 1; numInput > 0; numInput--) {
-            numInputb *= numInput;
-      }
-    } 
-      return numInputb;
-    }
-     console.log(factorialize(-2));*/
