@@ -22,14 +22,23 @@ header {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
+    margin-top: 35px;
 
 }
 
 h2 {
     font-size: 25px;
+
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 50px;
 }
 
 .title {

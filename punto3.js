@@ -14,7 +14,8 @@ boton.addEventListener(`click`,(e)=>{
             numInputb *= numInput;
       }
     } 
-    document.querySelector('h1').innerHTML=`El Factorial de ${save} es: ${numInputb}`;
+    document.querySelector('p').innerHTML=`El factorial de ${save} es:`;
+    document.querySelector('h1').innerHTML= `${numInputb}`;
 })
 
 /*function factorialize(numInput) {
@@ -29,3 +30,6 @@ boton.addEventListener(`click`,(e)=>{
       return numInputb;
     }
      console.log(factorialize(-2));*/
+
+
+     
